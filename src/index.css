@@ -7,9 +7,7 @@ body {
 }
 
 #root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Ensures content can expand */
-  overflow-y: auto;  /* Enables scrolling if needed */
+  width: 100%;
+  padding: 20px;
 }
+
