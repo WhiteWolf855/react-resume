@@ -1,15 +1,16 @@
-.App {
+.App-header {
+  background-color: #f1f1f1; /* Light background */
+  color: #333; /* Dark text */
+  padding: 20px;
   text-align: center;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+  border-bottom: 2px solid #ccc; /* Optional: subtle line for separation */
 }
 
-.App-header {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
+h1 {
+  margin: 0;
+  font-size: 32px;
 }
+
 
 /* Align main content properly */
 main {
