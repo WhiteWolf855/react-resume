@@ -11,29 +11,38 @@
   padding: 20px;
 }
 
+/* Align main content properly */
 main {
   margin: 20px;
+  max-width: 800px; /* Keeps content centered but not too wide */
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Ensure sections are spaced evenly */
 section {
   margin-bottom: 20px;
+  text-align: left; /* Aligns text to the left */
 }
 
-h1, h2 {
+/* Headings styling */
+h1, h2, h3 {
   font-size: 24px;
   color: #333;
 }
 
-footer {
-  background-color: #f1f1f1;
-  padding: 10px;
+/* Align lists (for experience, projects, etc.) */
+ul {
+  padding-left: 20px; /* Controls bullet indentation */
+  list-style-position: inside; /* Keeps bullets aligned with text */
 }
 
-.personal-info p, .education p, .experience p {
-  font-size: 18px;
-  line-height: 1.6;
+/* List item spacing */
+li {
+  margin-bottom: 8px;
 }
 
+/* Skills section for chips */
 .skills ul {
   list-style-type: none;
   padding: 0;
