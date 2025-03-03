@@ -37,6 +37,7 @@ function App() {
             <li>Powershell</li>
             <li>DHCP</li>
             <li>CI/CD Pipeline</li>
+            <li>Windows</li>
           </ul>
         </section>
         <section className="experience">
